@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<schemas xmlns='http://xml.netbeans.org/schema/JAXBWizConfig' destdir='build/generated/addons/jaxb' projectName='GUI-final' version='0.5'>
+	<schema type='-wsdl' package='' name='AsynchronouosBinding'>
+		<xjc-options>
+		</xjc-options>
+		<schema-sources>
+			<schema-source location='src/conf/xml-resources/jaxb/AsynchronouosBinding/localhost_18181/AsynchronousSampleClient.wsdl' origLocation='http://localhost:18181/AsynchronousSampleClient?wsdl' origLocationType='url'/>
+		</schema-sources>
+		<bindings>
+		</bindings>
+		<catalog/>
+	</schema>
+</schemas>

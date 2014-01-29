@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://192.168.0.107:18181/AsynchronousSampleApplication-sun-http-binding/AsynchronousSample/AsynchronousSample.wsdl" uri="192.168.0.107_18181/AsynchronousSampleApplication-sun-http-binding/AsynchronousSample/AsynchronousSample.wsdl"/>
+    <system systemId="http://192.168.0.107:18181/AsynchronousSampleApplication-sun-http-binding/AsynchronousSample/AsynchronousSample.xsd" uri="192.168.0.107_18181/AsynchronousSampleApplication-sun-http-binding/AsynchronousSample/AsynchronousSample.xsd"/>
+</catalog>

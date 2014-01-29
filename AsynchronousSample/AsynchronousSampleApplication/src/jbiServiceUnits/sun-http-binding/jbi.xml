@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jbi xmlns="http://java.sun.com/xml/ns/jbi" xmlns:ns1="http://enterprise.netbeans.org/bpel/AsynchronousSample" xmlns:ns2="http://enterprise.netbeans.org/bpel/AsynchronousSampleClient" xmlns:ns3="ReportService" xmlns:ns4="http://testPackage/" xmlns:ns5="http://ex5.aic.tu/" xmlns:ns6="AnalysisService" version="1.0">
+    <services binding-component="true">
+        <provides endpoint-name="AsynchronousClient_asyncCallbackPortName" interface-name="ns1:MyCallbackPortType" service-name="ns1:AsynchronousClient_asyncCallbackService"/>
+        <provides endpoint-name="ReportServiceSoapBinding" interface-name="ns3:ReportServicePortType" service-name="ns3:ReportService"/>
+        <provides endpoint-name="HumanServicePort" interface-name="ns4:HumanService" service-name="ns4:HumanServiceService"/>
+        <provides endpoint-name="TwitterServicePort" interface-name="ns5:TwitterService" service-name="ns5:TwitterServiceService"/>
+        <provides endpoint-name="CouchDbSvcPort" interface-name="ns5:CouchDbSvc" service-name="ns5:CouchDbSvcService"/>
+        <provides endpoint-name="AnalysisServiceSoapBinding" interface-name="ns6:AnalysisServicePortType" service-name="ns6:AnalysisService"/>
+        <consumes endpoint-name="AsynchronousClient_asyncCallbackPortName" interface-name="ns1:MyCallbackPortType" service-name="ns1:AsynchronousClient_asyncCallbackService"/>
+        <consumes endpoint-name="AsynchronousSample_asyncPortName" interface-name="ns1:MyPortType" service-name="ns1:AsynchronousSample_asyncService"/>
+        <consumes endpoint-name="AsynchronousClientPortName" interface-name="ns2:MyPortTypeClient" service-name="ns2:AsynchronousClientService"/>
+    </services>
+</jbi>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <nextCatalog catalog="nbproject/private/cache/retriever/catalog.xml"/>
+    <system systemId="http://localhost:18181/AsynchronousSampleClient?wsdl" uri="src/conf/xml-resources/jaxb/AsynchronouosBinding/localhost_18181/AsynchronousSampleClient.wsdl"/>
+    <system systemId="http://192.168.0.107:18181/AsynchronousSampleApplication-sun-http-binding/AsynchronousSample/AsynchronousSample.xsd" uri="src/conf/xml-resources/jaxb/AsynchronouosBinding/192.168.0.107_18181/AsynchronousSampleApplication-sun-http-binding/AsynchronousSample/AsynchronousSample.xsd"/>
+    <system systemId="http://192.168.0.107:18181/AsynchronousSampleApplication-sun-http-binding/AsynchronousSample/AsynchronousSample.wsdl" uri="src/conf/xml-resources/jaxb/AsynchronouosBinding/192.168.0.107_18181/AsynchronousSampleApplication-sun-http-binding/AsynchronousSample/AsynchronousSample.wsdl"/>
+    <system systemId="http://localhost:8080/AsyncWebApp/" uri="src/conf/xml-resources/web-service-references/WsClient/wsdl/localhost_8080/AsyncWebApp"/>
+    <system systemId="http://localhost:8080/AsyncWebApp/HumanServiceService?wsdl" uri="src/conf/xml-resources/web-service-references/HumanServiceService/wsdl/localhost_8080/AsyncWebApp/HumanServiceService.wsdl"/>
+    <system systemId="http://localhost:8080/AsyncWebApp/HumanServiceService?xsd=1" uri="src/conf/xml-resources/web-service-references/HumanServiceService/wsdl/localhost_8080/AsyncWebApp/HumanServiceService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/AsyncWebApp/HumanServiceService?xsd=2" uri="src/conf/xml-resources/web-service-references/HumanServiceService/wsdl/localhost_8080/AsyncWebApp/HumanServiceService.xsd_2.xsd"/>
+</catalog>
